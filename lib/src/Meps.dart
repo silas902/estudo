@@ -14,14 +14,14 @@ Meps(){
     var comando = stdin.readLineSync();
 
     if( comando == 'sair'){
-      print('===Programa Finalizado===');
+      print('=== Programa Finalizado ===');
       condicao = false;
     } else if(comando == 'cadastro'){
       cadastrar();
     } else if (comando == 'imprimir'){
       print(cadastros);
     } else {
-      print('=== Este Comando não Existe===');
+      print('=== Este Comando não Existe ===');
     }
 
 
