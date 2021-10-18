@@ -8,7 +8,9 @@ Meps(){
 
 
   while (condicao) {
-    print('Deseja sair, cadastro, imprimir ');
+    print('Escolha Uma Opção');
+    print('sair, cadastro, imprimir ');
+   
     var comando = stdin.readLineSync();
 
     if( comando == 'sair'){
